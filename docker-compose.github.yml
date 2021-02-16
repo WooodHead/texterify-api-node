@@ -1,0 +1,6 @@
+# Used in GitHub CI.
+# Don't use this config to run the service in production.
+
+services:
+  app:
+    image: chrztoph/texterify:latest
