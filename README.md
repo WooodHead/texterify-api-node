@@ -23,3 +23,11 @@ yarn test
 ```
 
 in a different shell.
+
+## Publishing
+
+To create a new release run
+
+```
+yarn release
+```
