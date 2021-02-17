@@ -20,7 +20,7 @@
     "analyze": "size-limit --why",
     "shell": "docker-compose exec app sh",
     "console": "docker-compose exec app bin/rails console",
-    "release": "./node_modules/.bin/np"
+    "release": "yarn publish"
   },
   "peerDependencies": {},
   "husky": {
@@ -52,7 +52,6 @@
     "@size-limit/preset-small-lib": "^4.9.2",
     "@types/node-fetch": "^2.5.8",
     "husky": "^5.0.9",
-    "np": "^7.4.0",
     "size-limit": "^4.9.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",

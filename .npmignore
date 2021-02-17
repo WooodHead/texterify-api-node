@@ -1,0 +1,23 @@
+# https://docs.npmjs.com/misc/developers
+
+# Default ignored.
+# .*.swp
+# ._*
+# .DS_Store
+# .git
+# .hg
+# .npmrc
+# .lock-wscript
+# .svn
+# .wafpickle-*
+# config.gypi
+# CVS
+# npm-debug.log
+
+.idea
+yarn-error.log
+.github
+docker-compose.github.yml
+docker-compose.yml
+tsconfig.json
+yarn.lock
