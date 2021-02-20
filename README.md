@@ -1,4 +1,4 @@
-# Texterify Node API
+# Texterify API Node
 
 ## Development
 

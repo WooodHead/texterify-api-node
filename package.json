@@ -1,6 +1,7 @@
 {
   "version": "0.1.3",
   "license": "MIT",
+  "homepage": "https://github.com/texterify/texterify-api-node",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -20,7 +21,7 @@
     "analyze": "size-limit --why",
     "shell": "docker-compose exec app sh",
     "console": "docker-compose exec app bin/rails console",
-    "release": "yarn publish"
+    "release": "yarn test && yarn publish"
   },
   "peerDependencies": {},
   "husky": {
