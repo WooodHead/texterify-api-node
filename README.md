@@ -4,11 +4,11 @@ Official Node interface for the [Texterify](https://texterify.com) API. The npm 
 
 ## Table of contents
 
-- [🚀 Getting started](#getting-started)
-- [🔧 Development](#development)
-- [📦 Publishing](#publishing)
-- [🤝 Contributing](#contributing)
-- [📝 License](#license)
+- 🚀 [Getting started](#getting-started)
+- 🔧 [Development](#development)
+- 📦 [Publishing](#publishing)
+- 🤝 [Contributing](#contributing)
+- 📝 [License](#license)
 
 ## 🚀 Getting started
 
