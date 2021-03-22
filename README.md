@@ -1,16 +1,20 @@
 # Texterify API Node
 
+[![website](https://img.shields.io/badge/website-texterify.com-blue.svg)](https://texterify.com)
+[![open issues](https://img.shields.io/github/issues-raw/texterify/texterify-api-node.svg)](https://github.com/texterify/texterify-api-node/issues)
+[![stars](https://img.shields.io/github/stars/texterify/texterify-api-node)](https://github.com/texterify/texterify-api-node)
+
 Official Node interface for the [Texterify](https://texterify.com) API. The npm package is available at https://www.npmjs.com/package/texterify-api.
 
 ## Table of contents
 
-- 🚀 [Getting started](#getting-started)
-- 🔧 [Development](#development)
-- 📦 [Publishing](#publishing)
-- 🤝 [Contributing](#contributing)
-- 📝 [License](#license)
+- [🚀 Getting started](#getting-started)
+- [🔧 Development](#development)
+- [📦 Publishing](#publishing)
+- [🤝 Contributing](#contributing)
+- [📝 License](#license)
 
-## 🚀 Getting started
+<h2 id="getting-started">🚀 Getting started</h2>
 
 Install the library by running
 
@@ -36,7 +40,7 @@ const projects = await texterify.projects.getAll();
 console.log(projects);
 ```
 
-## 🔧 Development
+<h2 id="development">🔧 Development</h2>
 
 Checkout the [Texterify](https://texterify.com) source code (https://github.com/texterify/texterify) and run
 
@@ -60,7 +64,7 @@ yarn test
 
 in a different terminal.
 
-## 📦 Publishing
+<h2 id="publishing">📦 Publishing</h2>
 
 To create a new release run
 
@@ -68,12 +72,12 @@ To create a new release run
 yarn release
 ```
 
-## 🤝 Contributing
+<h2 id="contributing">🤝 Contributing</h2>
 
 Want to help build Texterify?
 
 We are happy about every help. For major changes, please [open an issue](https://github.com/texterify/texterify-api-node/issues/new) first to discuss what you would like to change.
 
-## 📝 License
+<h2 id="license">📝 License</h2>
 
 This project is licensed under [MIT](LICENSE).
